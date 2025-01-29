@@ -12,6 +12,8 @@ Automatic executable generation: With GitHub Actions, executables are automatica
 Installation
 To install GamingLauncher, simply download the latest release from the Releases section on this page, and follow the instructions below based on your operating system.
 
+![GamingLauncher Screenshot](assets/screenshot1.png)
+
 Linux:
 
 Download the Linux executable from the Releases section.
@@ -49,6 +51,8 @@ Fork the repository.
 Clone your forked repository to your local machine.
 
 Make your changes and commit them with clear messages.
+
+![GamingLauncher Screenshot](assets/screenshot2.png)
 
 ## License
 
