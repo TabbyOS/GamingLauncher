@@ -1,66 +1,90 @@
-# GamingLauncher
+# 🎮 GamingLauncher 🚀  
 
-Welcome to the GamingLauncher project! 🎮🚀
+Welcome to **GamingLauncher** – a cross-platform game launcher designed for simplicity and efficiency!  
+Easily manage and launch your favorite games on **Linux** and **Windows** with a sleek, user-friendly interface.
 
-GamingLauncher is a cross-platform gaming launcher developed in Python. It allows users to easily manage and launch their games through a sleek, user-friendly interface. This launcher is designed to work on both Linux and Windows, ensuring a smooth experience for gamers across different platforms.
+> ⚠ **Early Development Notice**  
+> This is an early version of GamingLauncher and is still under development. Some features may not work as expected, and there might be bugs.  
+> Since I am working on this project alone, progress may be slow, and I have limited time to dedicate to it.  
+> Your understanding and feedback are greatly appreciated! 💙  
 
-> **Warning**:  
-> This is an early version of the GamingLauncher and is still under development. Some features may not work as expected, and there might be bugs. Since I am working on this project alone, progress might be slow, and I may not have unlimited time to dedicate to it. Your understanding and feedback are greatly appreciated!
+---
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
+## 📌 Table of Contents  
+- [✨ Features](#-features)  
+- [📥 Installation](#-installation)  
+- [🕹 Usage](#-usage)  
+- [🤝 Contributing](#-contributing)  
+- [📜 License](#-license)  
 
-## Introduction
-GamingLauncher is a powerful and easy-to-use gaming launcher that helps you manage and launch your favorite games from Steam without opening the Steam client. It is designed to run seamlessly on both Linux and Windows.
+---
 
-## Features
-- **Cross-platform support**: Works seamlessly on both Linux and Windows.
-- **Automatic game management**: Add and launch games from Steam without the need to manually open the Steam client.
-- **Customizability**: Easily change settings and configurations for your games and launcher.
-- **Automatic executable generation**: With GitHub Actions, executables are automatically built and uploaded for Linux and Windows.
+## ✨ Features  
+✔ 🎮 **Cross-Platform** – Works on **Linux** & **Windows**  
+✔ 🔗 **Steam Integration** – Add & launch games from Steam without manually opening the Steam client  
+✔ 🎨 **Customizable** – Modify launcher settings easily  
+✔ ⚡ **Automated Builds** – GitHub Actions generate executables for both platforms  
 
-## Installation
-To install GamingLauncher, simply download the latest release from the Releases section on this page, and follow the instructions below based on your operating system.
+---
 
-![GamingLauncher Screenshot](assets/screenshot1.png)
+## 📥 Installation  
+Download the latest release from the [📦 Releases Section](https://github.com/TabbyOS/GamingLauncher/releases) and follow the instructions below:  
 
-### Linux:
-1. Download the Linux executable from the [Releases section](https://github.com/TabbyOS/GamingLauncher/releases).
-2. Make the executable file runnable:
-    ```bash
-    cd /path/to/executable/
-    chmod +x GamingLauncher
-    ```
-3. Run the launcher:
-    ```bash
-    ./GamingLauncher
-    ```
+### 🐧 Linux Installation  
+1. **Download** the Linux executable.  
+2. **Make it executable**:  
+   ```bash
+   cd /path/to/executable/
+   chmod +x GamingLauncher
+   ```  
+3. **Run the launcher**:  
+   ```bash
+   ./GamingLauncher
+   ```  
 
-### Windows:
-1. Download the Windows executable from the [Releases section](https://github.com/TabbyOS/GamingLauncher/releases).
-2. Simply double-click the `.exe` file to launch the GamingLauncher.
+### 🖥 Windows Installation  
+1. **Download** the Windows `.exe` file.  
+2. **Run the launcher** by double-clicking the `.exe` file – it's that easy!  
 
-## Usage
-Once the launcher is started, you can add your favorite games and configure them to launch directly from the GamingLauncher interface.
+---
 
-You can also set up custom settings, including how games should be launched and any additional preferences.
+## 🕹 Usage  
+Once GamingLauncher is running, you can:  
+🎯 **Add your favorite games** and launch them directly.  
+⚙ **Customize settings** to fine-tune your gaming experience.  
+📋 **Enjoy a simple and intuitive interface** for managing your games.  
 
-![GamingLauncher Screenshot](assets/screenshot2.png)
+![GamingLauncher Screenshot](assets/screenshot1.png)  
 
-## Contributing
-If you would like to contribute to the project, feel free to fork the repository, submit pull requests, or open issues for any bugs or features you'd like to see.
+---
 
-### Steps for contributing:
-1. Fork the repository.
-2. Clone your forked repository to your local machine.
-3. Make your changes and commit them with clear messages.
-4. Push the changes to your forked repository.
-5. Open a pull request to the main repository.
+## 🤝 Contributing  
+Want to improve GamingLauncher? Contributions are welcome! 💡  
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+### Steps to contribute:  
+1. **Fork the repository**.  
+2. **Clone your forked repository**:  
+   ```bash
+   git clone https://github.com/yourusername/GamingLauncher.git
+   ```  
+3. **Make changes and commit with a clear message**.  
+4. **Push your changes**:  
+   ```bash
+   git push origin your-branch
+   ```  
+5. **Submit a pull request** to the main repository.  
+
+![GamingLauncher Screenshot](assets/screenshot2.png)  
+
+---
+
+## 📜 License  
+This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.  
+
+---
+
+## 🚀 Stay Updated!  
+⭐ **Star** this repository to get notified about updates!  
+💬 **Feedback?** Feel free to open an **Issue**!  
+
+Happy gaming! 🎮🔥  
