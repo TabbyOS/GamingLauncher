@@ -1,0 +1,56 @@
+name: Build GamingLauncher
+
+on:
+  push:
+    branches:
+      - main  # Startet das Build, wenn Code auf "main" gepusht wird
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyinstaller requests PyQt5
+
+      - name: Build Windows Executable
+        if: matrix.os == 'windows-latest'
+        run: |
+          pyinstaller --onefile --windowed --name "GamingLauncher" launcherAlpha2.py
+
+      - name: Build Linux Executable
+        if: matrix.os == 'ubuntu-latest'
+        run: |
+          pyinstaller --onefile --name "GamingLauncher" launcherAlpha2.py
+          chmod +x dist/GamingLauncher
+
+      - name: Upload Windows Artifact
+        if: matrix.os == 'windows-latest'
+        uses: actions/upload-artifact@v3
+        with:
+          name: GamingLauncher-Windows
+          path: dist/GamingLauncher.exe
+
+      - name: Upload Linux Artifact
+        if: matrix.os == 'ubuntu-latest'
+        uses: actions/upload-artifact@v3
+        with:
+          name: GamingLauncher-Linux
+          path: dist/GamingLauncher
