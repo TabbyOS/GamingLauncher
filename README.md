@@ -50,6 +50,10 @@ Clone your forked repository to your local machine.
 
 Make your changes and commit them with clear messages.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 Push the changes to your forked repository.
 
 Open a pull request to the main repository.
