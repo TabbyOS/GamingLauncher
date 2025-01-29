@@ -4,6 +4,9 @@ Welcome to the GamingLauncher project! 🎮🚀
 
 GamingLauncher is a cross-platform gaming launcher developed in Python. It allows users to easily manage and launch their games through a sleek, user-friendly interface. This launcher is designed to work on both Linux and Windows, ensuring a smooth experience for gamers across different platforms.
 
+> **Warning**:  
+> This is an early version of the GamingLauncher and is still under development. Some features may not work as expected, and there might be bugs. Since I am working on this project alone, progress might be slow, and I may not have unlimited time to dedicate to it. Your understanding and feedback are greatly appreciated!
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
