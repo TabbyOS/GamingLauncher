@@ -1,4 +1,4 @@
-![GamingLauncher](assets/banner.png)
+![GamingLauncher](assets/banner2.png)
 
 # 🎮 GamingLauncher 🚀  
 
