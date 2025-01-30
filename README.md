@@ -1,5 +1,8 @@
 ![GamingLauncher](assets/banner2.png)
 
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Version](https://img.shields.io/github/release/TabbyOS/GamingLauncher)
+
 # 🎮 GamingLauncher 🚀  
 
 Welcome to **GamingLauncher** – a cross-platform game launcher designed for simplicity and efficiency!  
