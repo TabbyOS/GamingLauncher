@@ -1,3 +1,5 @@
+![GamingLauncher](assets/banner1.png)
+
 # 🎮 GamingLauncher 🚀  
 
 Welcome to **GamingLauncher** – a cross-platform game launcher designed for simplicity and efficiency!  
