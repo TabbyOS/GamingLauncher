@@ -75,7 +75,11 @@ Want to improve GamingLauncher? Contributions are welcome! 💡
    ```bash
    git push origin your-branch
    ```  
-5. **Submit a pull request** to the main repository.  
+5. **Submit a pull request** to the main repository.
+
+🚀 Stay Updated!
+⭐ Star this repository to receive updates.
+💬 Got feedback? Feel free to open an Issue!
 
 ![GamingLauncher Screenshot](assets/screenshot2.png)  
 
