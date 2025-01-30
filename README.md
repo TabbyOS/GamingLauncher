@@ -89,9 +89,3 @@ Want to improve GamingLauncher? Contributions are welcome! 💡
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.  
 
 ---
-
-## 🚀 Stay Updated!  
-⭐ **Star** this repository to get notified about updates!  
-💬 **Feedback?** Feel free to open an **Issue**!  
-
-Happy gaming! 🎮🔥  
